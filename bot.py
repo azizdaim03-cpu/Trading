@@ -9,7 +9,7 @@ TOKEN = os.environ["TG_TOKEN"]
 CHAT = os.environ["TG_CHAT_ID"]
 
 SYMBOL = "GC=F"        # or: gold futures (proche de XAUUSD)
-START_H, END_H = 7, 19  # heures UTC pendant lesquelles on envoie des signaux
+START_H, END_H = 0, 24  # heures UTC pendant lesquelles on envoie des signaux
 ATR_MULT = 1.5
 RR = 10 / 3             # TP = 3.33 x SL (comme 3% / 10%)
 MAX_AGE_MIN = 10        # ignore les signaux plus vieux que ca
